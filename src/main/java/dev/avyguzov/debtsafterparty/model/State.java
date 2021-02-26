@@ -1,0 +1,10 @@
+package dev.avyguzov.debtsafterparty.model;
+
+public enum State {
+    PARTICIPANTS_PROCESSING,
+    PARTICIPANTS_ENTERED,
+    PARTICIPANTS_APPROVE_WAITING,
+    SPENDS_PROCESSING,
+    SPENDS_ENTERED,
+    SPENDS_APPROVE_WAITING
+}
